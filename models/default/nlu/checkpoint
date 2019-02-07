@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Roger\\Documents\\Python Scripts\\Jiggabot\\models/default\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Roger\\Documents\\Python Scripts\\Jiggabot\\models/default\\nlu\\intent_classifier_tensorflow_embedding.ckpt"

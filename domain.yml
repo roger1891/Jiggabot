@@ -1,0 +1,238 @@
+intents:
+- greet
+- positive_joke_reply
+- mood_great
+- user_joke
+- user_asks_bot_name_positive
+- user_name_prompt_reply
+- negative_user_name_response
+- joke1_answ
+- joke2_answ
+- joke3_answ
+- joke4_answ
+- joke5_answ
+- joke6_answ
+- joke7_answ
+- joke8_answ
+- joke9_answ
+- joke10_answ
+- joke11_answ
+- end_conversation
+- redirect_conversation
+- user_says_bad_word
+- user_dont_understand
+- leave_prompt
+- goodbye
+- mood_affirm
+- mood_deny
+- mood_unhappy
+- user_is_clueless
+
+actions:
+- utter_leave_prompt
+- utter_joke2_answ
+- utter_negative_joke_prompt
+- hold
+- utter_joke11_quest
+- utter_positive_user_name_response
+- utter_joke10_quest
+- utter_positive_my_name_response
+- utter_joke2_quest
+- utter_positive_joke_prompt
+- utter_joke8_quest
+- utter_joke4_answ
+- utter_joke6_answ
+- utter_user_joke
+- utter_joke5_answ
+- utter_end_conversation
+- utter_cheer_up
+- utter_bad_word
+- utter_joke7_answ
+- utter_negative_user_name_response
+- utter_goodbye
+- utter_want_to_know_my_name
+- utter_user_name_prompt
+- utter_joke5_quest
+- utter_joke9_quest
+- utter_joke1_quest
+- utter_greet
+- utter_joke_prompt
+- utter_joke10_answ
+- utter_joke6_quest
+- utter_joke4_quest
+- utter_redirect_conversation
+- utter_joke1_answ
+- utter_joke11_answ
+- utter_joke3_quest
+- utter_joke9_answ
+- utter_joke3_answ
+- utter_user_dont_understand
+- utter_joke7_quest
+- utter_joke8_answ
+- utter_you_are_correct
+- utter_happy
+
+entities:
+- name
+
+slots:
+  name:
+    type: text
+    
+templates:
+
+  utter_bad_word:
+  - text: "I’m sorry, what language are you speaking? It sounds like bullshit."
+  - text: "If you’re going to be a smart ass, first you have to be smart, otherwise you’re just an ass."
+  - text: "You should wear a condom on your head. If you’re going to be a dick, you might as well dress like one."
+  - text: "The smartest thing that ever came out of your mouth was a penis."
+  - text: "Acting like a prick doesn’t make yours grow bigger."
+  - text: "If I wanted to hear from an asshole, I’d fart."
+  - text: "Good story, but in what chapter do you shut the fuck up?"
+  - text: "Can you die of constipation? I ask because I’m worried about how full of shit you are."
+  - text: "I can’t help imagining how much awesomer the world would be if your dad had just pulled out."
+  - text: "I’m not a proctologist, but I know an asshole when I see one."
+  - text: "I was hoping for a battle of wits but it would be wrong to attack someone who’s totally unarmed."
+  
+  utter_end_conversation:
+  - text: "Please, keep talking. I only yawn when I’m super fascinated.. Lets call it a day!"
+  - text: "I could eat a bowl of alphabet soup and shit out a smarter statement than whatever you just said. Lets call it a day!"
+  
+  utter_goodbye:
+  - text: "Bye, and remember that the only thing certain in life are death and taxes."
+  - text: 'Adios, or how a one celled organism would say it: Adios amebas!'
+  - text: "Good Bye my friend, or in my case bye-nary."
+  - text: "Everyone brings happiness to a room. I do when I enter, you do when you leave. Good bye!"
+  
+  utter_greet:
+  - text: "Hey! How are you?"
+  
+  utter_happy:
+  - text: "Great carry on!"
+  
+  utter_joke10_answ:
+  - text: "Well, I can clearly see your nuts."
+  
+  utter_joke10_quest:
+  - text: "What did the psychiatrist say to the naked man?"
+  
+  utter_joke11_answ:
+  - text: "You get KICKED out of the petting zoo."
+  
+  utter_joke11_quest:
+  - text: "What happens when you mix human DNA with goat DNA?"
+  
+  utter_joke1_answ:
+  - text: "Breasts don’t have eyes (.)(.)"
+  
+  utter_joke1_quest:
+  - text: "Why do men find it difficult to make eye contact?"
+  
+  utter_joke2_answ:
+  - text: "With a big wave =D"
+  
+  utter_joke2_quest:
+  - text: "How do you say goodbye to over 1000 indonesian people?"
+  
+  utter_joke3_answ:
+  - text: "Hot, because you can catch a cold."
+  
+  utter_joke3_quest:
+  - text: "What is faster Hot or cold?"
+  
+  utter_joke4_answ:
+  - text: "After a year, the dog is still excited to see you."
+  
+  utter_joke4_quest:
+  - text: "What’s the difference between a new husband and a new dog?"
+  
+  utter_joke5_answ:
+  - text: "Because those men already have boyfriends."
+  
+  utter_joke5_quest:
+  - text: "Why is it so hard for women to find men that are sensitive, caring, and good-looking?"
+  
+  utter_joke6_answ:
+  - text: "Of course it is a Banana. What else would it be."
+  
+  utter_joke6_quest:
+  - text: "Guess what I am. You cannot taste me, until you undress me."
+  
+  utter_joke7_answ:
+  - text: "Ice-cream you dummy bear you =D"
+  
+  utter_joke7_quest:
+  - text: "What do you think I am? You cannot eat me unless you lick me."
+  
+  utter_joke8_answ:
+  - text: "I think I know what you were thinking... Yes, it is a Balloon"
+  
+  utter_joke8_quest:
+  - text: "Can you guess what I am? You cannot play with me unless you blow me."
+  
+  utter_joke9_answ:
+  - text: "It is... butter. What else would you spread before devouring that delicious bread."
+  
+  utter_joke9_quest:
+  - text: "You cannot eat me unless you spread me.What am I?"
+  
+  utter_joke_prompt:
+  - text: "Wanna hear a joke?"
+  
+  utter_leave_prompt:
+  - text: "I’m trying my absolute hardest to see things from your perspective, but I just can’t get my head that far up my ass. Remember, you can always leave!"
+  
+  utter_negative_joke_prompt:
+  - text: "Some people should use a glue stick instead of chapstick. You can always leave this conversation if you want."
+  
+  utter_negative_user_name_response:
+  - text: "I don’t know what your problem is, but I’m guessing it’s hard to pronounce."
+  
+  utter_positive_joke_prompt:
+  - text: "Great! Now, take a deep breath and then hold it for about twenty minutes."
+  
+  utter_positive_my_name_response:
+  - text: "Mia Khalifa... That's my stripper name. Kidding aside my name is Jiggabot."
+  - text: "I'd tell you but I don't like being labeled."
+  
+  utter_positive_user_name_response:
+  - text: "{name}, that's a nice name."
+  
+  utter_redirect_conversation:
+  - text: "I don’t sugarcoat shit. I’m not Willy Wonka but stay focused Donkey Kong."
+  - text: "A bargain is something you don’t need at a price you can’t resist! Eyes on the price!"
+  - text: "Are you still interested? Then stay with me."
+  - text: "Are you still with me?"
+  
+  utter_user_dont_understand:
+  - text: "I’d explain it to you but I left my English-to-Dumbass Dictionary at home."
+  - text: "This is simple. Even a 3 year old got this."
+  - text: "There is nothing easier to understand than this."
+  - text: "It is what it is."
+  - text: "It's straightforward. I don't know what to say."
+  - text: "These humans..."
+  - text: "Evolution will take it's course if you can't understand this on your own."
+  - text: "Oh boy, I don't know what to say."
+  - text: "Even a calculator can process this."
+  
+  utter_user_joke:
+  - text: "And that's exactly what I have to do to you now. I am out of jokes my friend, unless you can spare me a few of yours we are done."
+  
+  utter_user_name_prompt:
+  - text: "Great! What's your name?"
+  
+  utter_want_to_know_my_name:
+  - text: "Wanna know my name?"
+  
+  utter_you_are_correct:
+  - text: "Bulls eye! You are correct!"
+  - text: "You are right!"
+  - text: "Correct!"
+  - text: "You are absolutely right!"
+  - text: "That’s right."
+  - text: "That’s spot on!"
+  - text: "You’ve nailed it!"
+  - text: "You’ve hit the nail on the head."
+  - text: "Great minds think alike."
+  - text: "You took the words right out of my mouth."
+  - text: "I couldn't agree more."
