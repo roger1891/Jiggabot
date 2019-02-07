@@ -236,3 +236,6 @@ templates:
   - text: "Great minds think alike."
   - text: "You took the words right out of my mouth."
   - text: "I couldn't agree more."
+  
+  utter_default:
+  - text: "Type 'I don't know' if you don't have an answer."
