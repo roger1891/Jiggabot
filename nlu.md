@@ -87,10 +87,15 @@
 
 ## intent:joke3_answ
 - Hot, because you can catch a cold.
-- 
+- It's definitely hot, a cold can be caught.
+- No doubt hot since you can catch a cold
+- You can catch a cold, so it has to be hot
 
 ## intent:joke4_answ
 - After a year, the dog is still excited to see you.
+- I think the dog is still excited to see you
+- A dog will be happy and excited to see you
+- A dog will be happy to see you
 
 ## intent:joke5_answ
 - Because those men already have boyfriends.
@@ -114,6 +119,8 @@
 - Balloon
 - Balloons
 - You are a balloon
+- I believe it is a balloon
+
 
 ## intent:joke9_answ
 - Butter
@@ -122,10 +129,15 @@
 
 ## intent:joke10_answ
 - I can clearly see your nuts.
-- You are nuts
+- You ae nuts
+- You're nuts 
 
 ## intent:joke11_answ
 - You get kicked out of the petting zoo
+- You'll get banned by the petting zoo
+- You'll be kicked out of the zoo
+- The zoo will make sure you are banned
+- They will kick you out
 
 ## intent:user_says_bad_word
 - Fuck off
@@ -137,6 +149,8 @@
 - Cunt
 - Fucker
 - Jack ass
+- Son of a bitch
+- Mother fucker
 
 ## intent:mood_affirm
 - yes
@@ -171,6 +185,9 @@
 - I am great
 - I'm good
 - I am doing great
+- I am fine. 
+- I am fine. Thanks for asking.
+- I am feeling good. Thank you for asking.
 
 ## intent:mood_unhappy
 - sad
