@@ -11,7 +11,8 @@ from rasa_nlu import config
 #train dialogue model (core)
 def train_dialogue(domain_file, stories_file, model_dir):
   #assign domain to agent
-  agent = Agent(domain_file, policies=[KerasPolicy(), FallbackPolicy(), MemoizationPolicy(), FormPolicy()])
+  #agent = Agent(domain_file, policies=[KerasPolicy(), FallbackPolicy(), MemoizationPolicy(), FormPolicy()])
+  agent = Agent(domain_file, policies=[KerasPolicy(), MemoizationPolicy(), FormPolicy()])
   #load story
   training_data = agent.load_data(stories_file)
   #train agent

@@ -1,48 +1,48 @@
 %YAML 1.1
 ---
 actions:
-- utter_leave_prompt
-- utter_joke2_answ
-- utter_negative_joke_prompt
-- hold
-- utter_joke11_quest
-- utter_positive_user_name_response
-- utter_joke10_quest
-- utter_positive_my_name_response
-- utter_joke2_quest
-- utter_positive_joke_prompt
-- utter_joke8_quest
-- utter_joke4_answ
-- utter_joke6_answ
-- utter_user_joke
-- utter_joke5_answ
-- utter_end_conversation
-- utter_cheer_up
-- utter_bad_word
-- utter_joke7_answ
-- utter_negative_user_name_response
-- utter_goodbye
-- utter_want_to_know_my_name
-- utter_user_name_prompt
-- utter_joke5_quest
-- utter_joke9_quest
-- utter_joke1_quest
-- utter_greet
-- utter_joke_prompt
-- utter_joke10_answ
-- utter_joke6_quest
-- utter_joke4_quest
-- utter_redirect_conversation
-- utter_joke1_answ
-- utter_joke11_answ
-- utter_joke3_quest
 - utter_joke9_answ
-- utter_joke3_answ
-- utter_user_dont_understand
-- utter_joke7_quest
+- utter_leave_prompt
 - utter_joke8_answ
+- utter_joke3_quest
+- utter_goodbye
+- utter_negative_user_name_response
+- utter_joke7_answ
+- utter_joke11_quest
+- utter_user_joke
+- utter_joke11_answ
+- utter_joke9_quest
+- utter_greet
+- utter_positive_my_name_response
+- utter_joke5_answ
+- utter_joke_prompt
+- utter_joke10_quest
+- utter_joke5_quest
+- utter_positive_joke_prompt
+- utter_user_name_prompt
+- utter_negative_joke_prompt
 - utter_you_are_correct
+- utter_joke8_quest
+- utter_end_conversation
+- utter_joke1_quest
+- utter_joke3_answ
+- utter_redirect_conversation
+- utter_joke10_answ
+- utter_joke2_quest
+- utter_cheer_up
+- utter_joke6_quest
 - utter_happy
+- utter_bad_word
+- utter_joke4_quest
+- utter_joke1_answ
+- utter_positive_user_name_response
+- utter_want_to_know_my_name
+- utter_user_dont_understand
+- utter_joke4_answ
+- utter_joke2_answ
+- utter_joke6_answ
+- utter_joke7_quest
+- hold
 config:
   store_entities_as_slots: true
 entities:
@@ -53,21 +53,25 @@ intents:
     use_entities: true
 - positive_joke_reply:
     use_entities: true
+- user_is_clueless:
+    use_entities: true
+- joke3_answ:
+    use_entities: true
+- mood_deny:
+    use_entities: true
 - mood_great:
-    use_entities: true
-- user_joke:
-    use_entities: true
-- user_asks_bot_name_positive:
-    use_entities: true
-- user_name_prompt_reply:
-    use_entities: true
-- negative_user_name_response:
     use_entities: true
 - joke1_answ:
     use_entities: true
-- joke2_answ:
+- user_name_prompt_reply:
     use_entities: true
-- joke3_answ:
+- user_asks_bot_name_positive:
+    use_entities: true
+- user_joke:
+    use_entities: true
+- negative_user_name_response:
+    use_entities: true
+- joke2_answ:
     use_entities: true
 - joke4_answ:
     use_entities: true
@@ -99,11 +103,7 @@ intents:
     use_entities: true
 - mood_affirm:
     use_entities: true
-- mood_deny:
-    use_entities: true
 - mood_unhappy:
-    use_entities: true
-- user_is_clueless:
     use_entities: true
 slots:
   name:

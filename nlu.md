@@ -15,6 +15,165 @@
 - what's up
 - sup
 - hi
+- hi
+- hi
+
+## intent:joke10_answ
+- I can clearly see your nuts.
+- You ae nuts
+- You're nuts
+
+## intent:joke11_answ
+- You get kicked out of the petting zoo
+- You'll get banned by the petting zoo
+- You'll be kicked out of the zoo
+- The zoo will make sure you are banned
+- They will kick you out
+
+## intent:joke1_answ
+- Breasts don’t have eyes
+- Boobs don't have eyes
+- No eyes on boobies
+- boobs don't have eyes
+
+## intent:joke2_answ
+- With a big wave
+- A wave
+- One big wave
+- a big wave
+
+## intent:joke3_answ
+- Hot, because you can catch a cold.
+- It's definitely hot, a cold can be caught.
+- No doubt hot since you can catch a cold
+- You can catch a cold, so it has to be hot
+- hot
+- hot because the cold can be caught
+
+## intent:joke4_answ
+- After a year, the dog is still excited to see you.
+- I think the dog is still excited to see you
+- A dog will be happy and excited to see you
+- A dog will be happy to see you
+
+## intent:joke5_answ
+- Because those men already have boyfriends.
+- They are gay
+- They are faggots
+- They are queers
+
+## intent:joke6_answ
+- Of course it is a Banana. What else would it be.
+- Banana
+- It could be a banana
+- Is it a banana
+
+## intent:joke7_answ
+- It is Ice-cream
+- Is it ice- cream
+- I think its ice cream
+- ice cream
+
+## intent:joke8_answ
+- Balloon
+- Balloons
+- You are a balloon
+- I believe it is a balloon
+
+## intent:joke9_answ
+- Butter
+- It is butter
+- I would guess butter
+
+## intent:mood_affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:mood_deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- na, not really
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+- I am doing great
+- I am fine.
+- I am fine. Thanks for asking.
+- I am feeling good. Thank you for asking.
+- I am fine
+- I am all good. Thanks for asking
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:negative_user_name_response
+- I don't want to
+- You don't need to know
+- I don't want to tell you
+- I am not comfortable telling you my name
+- I don't feel like telling you
+
+## intent:positive_joke_reply
+- Yes
+- yes
+- sure
+- of course
+- tell me
+- Yes, I want to know
+- Please, tell me
+- Go ahead
+- shoot
+- Yes, tell me what the joke is
+- Of course I want to know the joke
+- Yes, tell me the joke
+- yes
+- yes
+
+## intent:user_asks_bot_name_positive
+- Yes
+- yes
+- sure
+- of course
+- tell me
+- Yes, I want to know
+- Please, tell me
+- Go ahead
+- shoot
+- Yes, tell me your name
+- Of course I want to know your name
+- Yes, tell me your name
+- I do want to know your name
+
+## intent:user_dont_understand
+- I don't understand the joke
+- I don't understand this
+- I don't get it
+- Can you explain it to me?
+- Please feel free to educate me on this
+- Elaborate please.
 
 ## intent:user_is_clueless
 - Why is that?
@@ -73,71 +232,38 @@
 - A freak
 - An alien
 - Freak of nature
+- why?
+- How?
+- I don't know
+- I don't know
+- Lol what is this?
+- Strange. I don't know
+- I can't guess what you are
+- I haven't got a clue
+- What?
+- bestiality is the outcome
+- I don't speak their language. I would not know. Tell me
+- I don't know
 
-## intent:joke1_answ
-- Breasts don’t have eyes
-- Boobs don't have eyes
-- No eyes on boobies
+## intent:user_joke
+- Why did the chicken cross the road
+- Why did the chicken cross the road?
+- Knock knock
+- I don't know any
+- I wish I knew any
+- I am not good with this
+- Nope
+- I know none
+- I wish I could
 
-## intent:joke2_answ
-- With a big wave
-- A wave
-- One big wave
-- a big wave
-
-## intent:joke3_answ
-- Hot, because you can catch a cold.
-- It's definitely hot, a cold can be caught.
-- No doubt hot since you can catch a cold
-- You can catch a cold, so it has to be hot
-
-## intent:joke4_answ
-- After a year, the dog is still excited to see you.
-- I think the dog is still excited to see you
-- A dog will be happy and excited to see you
-- A dog will be happy to see you
-
-## intent:joke5_answ
-- Because those men already have boyfriends.
-- They are gay
-- They are faggots
-- They are queers
-
-## intent:joke6_answ
-- Of course it is a Banana. What else would it be.
-- Banana
-- It could be a banana
-- Is it a banana
-
-## intent:joke7_answ
-- It is Ice-cream
-- Is it ice- cream
-- I think its ice cream
-- ice cream
-
-## intent:joke8_answ
-- Balloon
-- Balloons
-- You are a balloon
-- I believe it is a balloon
-
-
-## intent:joke9_answ
-- Butter
-- It is butter
-- I would guess butter
-
-## intent:joke10_answ
-- I can clearly see your nuts.
-- You ae nuts
-- You're nuts 
-
-## intent:joke11_answ
-- You get kicked out of the petting zoo
-- You'll get banned by the petting zoo
-- You'll be kicked out of the zoo
-- The zoo will make sure you are banned
-- They will kick you out
+## intent:user_name_prompt_reply
+- My name is [George](name)
+- [George](name)
+- [James](name)
+- My name is [James](name)
+- [John](name)
+- My name is [James](name)
+- [Roger](name)
 
 ## intent:user_says_bad_word
 - Fuck off
@@ -149,106 +275,7 @@
 - Cunt
 - Fucker
 - Jack ass
-- Son of a bitch
-- Mother fucker
+- You little son of a bitch
+- You are a Mother fucker
+- Turd
 
-## intent:mood_affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
-
-## intent:user_dont_understand
-- I don't understand the joke
-- I don't understand this
-- I don't get it
-- Can you explain it to me?
-- Please feel free to educate me on this
-- Elaborate please.
-
-## intent:mood_deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-- I am doing great
-- I am fine. 
-- I am fine. Thanks for asking.
-- I am feeling good. Thank you for asking.
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:negative_user_name_response
-- I don't want to
-- You don't need to know
-- I don't want to tell you
-- I am not comfortable telling you my name
-- I don't feel like telling you
-
-## intent:positive_joke_reply
-- Yes
-- yes
-- sure
-- of course
-- tell me
-- Yes, I want to know
-- Please, tell me
-- Go ahead
-- shoot
-- Yes, tell me what the joke is
-- Of course I want to know the joke
-- Yes, tell me the joke
-
-## intent:user_asks_bot_name_positive
-- Yes
-- yes
-- sure
-- of course
-- tell me
-- Yes, I want to know
-- Please, tell me
-- Go ahead
-- shoot
-- Yes, tell me your name
-- Of course I want to know your name
-- Yes, tell me your name
-
-## intent:user_joke
-- Why did the chicken cross the road
-- Why did the chicken cross the road?
-- Knock knock
-- I don't know any
-- I wish I knew any
-- I am not good with this
-- Nope
-- I know none
-
-## intent:user_name_prompt_reply
-- My name is [George](name)
-- [George](name)
-- [James](name)
-- My name is [James](name)
-- [John](name)

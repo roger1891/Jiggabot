@@ -58,6 +58,490 @@
         "text": "hi"
       },
       {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "joke10_answ",
+        "text": "I can clearly see your nuts."
+      },
+      {
+        "intent": "joke10_answ",
+        "text": "You ae nuts"
+      },
+      {
+        "intent": "joke10_answ",
+        "text": "You're nuts"
+      },
+      {
+        "intent": "joke11_answ",
+        "text": "You get kicked out of the petting zoo"
+      },
+      {
+        "intent": "joke11_answ",
+        "text": "You'll get banned by the petting zoo"
+      },
+      {
+        "intent": "joke11_answ",
+        "text": "You'll be kicked out of the zoo"
+      },
+      {
+        "intent": "joke11_answ",
+        "text": "The zoo will make sure you are banned"
+      },
+      {
+        "intent": "joke11_answ",
+        "text": "They will kick you out"
+      },
+      {
+        "intent": "joke1_answ",
+        "text": "Breasts don’t have eyes"
+      },
+      {
+        "intent": "joke1_answ",
+        "text": "Boobs don't have eyes"
+      },
+      {
+        "intent": "joke1_answ",
+        "text": "No eyes on boobies"
+      },
+      {
+        "intent": "joke1_answ",
+        "text": "boobs don't have eyes"
+      },
+      {
+        "intent": "joke2_answ",
+        "text": "With a big wave"
+      },
+      {
+        "intent": "joke2_answ",
+        "text": "A wave"
+      },
+      {
+        "intent": "joke2_answ",
+        "text": "One big wave"
+      },
+      {
+        "intent": "joke2_answ",
+        "text": "a big wave"
+      },
+      {
+        "intent": "joke3_answ",
+        "text": "Hot, because you can catch a cold."
+      },
+      {
+        "intent": "joke3_answ",
+        "text": "It's definitely hot, a cold can be caught."
+      },
+      {
+        "intent": "joke3_answ",
+        "text": "No doubt hot since you can catch a cold"
+      },
+      {
+        "intent": "joke3_answ",
+        "text": "You can catch a cold, so it has to be hot"
+      },
+      {
+        "intent": "joke3_answ",
+        "text": "hot"
+      },
+      {
+        "intent": "joke3_answ",
+        "text": "hot because the cold can be caught"
+      },
+      {
+        "intent": "joke4_answ",
+        "text": "After a year, the dog is still excited to see you."
+      },
+      {
+        "intent": "joke4_answ",
+        "text": "I think the dog is still excited to see you"
+      },
+      {
+        "intent": "joke4_answ",
+        "text": "A dog will be happy and excited to see you"
+      },
+      {
+        "intent": "joke4_answ",
+        "text": "A dog will be happy to see you"
+      },
+      {
+        "intent": "joke5_answ",
+        "text": "Because those men already have boyfriends."
+      },
+      {
+        "intent": "joke5_answ",
+        "text": "They are gay"
+      },
+      {
+        "intent": "joke5_answ",
+        "text": "They are faggots"
+      },
+      {
+        "intent": "joke5_answ",
+        "text": "They are queers"
+      },
+      {
+        "intent": "joke6_answ",
+        "text": "Of course it is a Banana. What else would it be."
+      },
+      {
+        "intent": "joke6_answ",
+        "text": "Banana"
+      },
+      {
+        "intent": "joke6_answ",
+        "text": "It could be a banana"
+      },
+      {
+        "intent": "joke6_answ",
+        "text": "Is it a banana"
+      },
+      {
+        "intent": "joke7_answ",
+        "text": "It is Ice-cream"
+      },
+      {
+        "intent": "joke7_answ",
+        "text": "Is it ice- cream"
+      },
+      {
+        "intent": "joke7_answ",
+        "text": "I think its ice cream"
+      },
+      {
+        "intent": "joke7_answ",
+        "text": "ice cream"
+      },
+      {
+        "intent": "joke8_answ",
+        "text": "Balloon"
+      },
+      {
+        "intent": "joke8_answ",
+        "text": "Balloons"
+      },
+      {
+        "intent": "joke8_answ",
+        "text": "You are a balloon"
+      },
+      {
+        "intent": "joke8_answ",
+        "text": "I believe it is a balloon"
+      },
+      {
+        "intent": "joke9_answ",
+        "text": "Butter"
+      },
+      {
+        "intent": "joke9_answ",
+        "text": "It is butter"
+      },
+      {
+        "intent": "joke9_answ",
+        "text": "I would guess butter"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "never"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no way"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not really"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "na, not really"
+      },
+      {
+        "intent": "mood_great",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I'm good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am doing great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am fine."
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am fine. Thanks for asking."
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling good. Thank you for asking."
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am fine"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am all good. Thanks for asking"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremely sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
+      },
+      {
+        "intent": "negative_user_name_response",
+        "text": "I don't want to"
+      },
+      {
+        "intent": "negative_user_name_response",
+        "text": "You don't need to know"
+      },
+      {
+        "intent": "negative_user_name_response",
+        "text": "I don't want to tell you"
+      },
+      {
+        "intent": "negative_user_name_response",
+        "text": "I am not comfortable telling you my name"
+      },
+      {
+        "intent": "negative_user_name_response",
+        "text": "I don't feel like telling you"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Yes"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "yes"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "sure"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "of course"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "tell me"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Yes, I want to know"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Please, tell me"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Go ahead"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "shoot"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Yes, tell me what the joke is"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Of course I want to know the joke"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Yes, tell me the joke"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "yes"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "yes"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Yes"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "yes"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "sure"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "of course"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "tell me"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Yes, I want to know"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Please, tell me"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Go ahead"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "shoot"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Yes, tell me your name"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Of course I want to know your name"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Yes, tell me your name"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "I do want to know your name"
+      },
+      {
+        "intent": "user_dont_understand",
+        "text": "I don't understand the joke"
+      },
+      {
+        "intent": "user_dont_understand",
+        "text": "I don't understand this"
+      },
+      {
+        "intent": "user_dont_understand",
+        "text": "I don't get it"
+      },
+      {
+        "intent": "user_dont_understand",
+        "text": "Can you explain it to me?"
+      },
+      {
+        "intent": "user_dont_understand",
+        "text": "Please feel free to educate me on this"
+      },
+      {
+        "intent": "user_dont_understand",
+        "text": "Elaborate please."
+      },
+      {
         "intent": "user_is_clueless",
         "text": "Why is that?"
       },
@@ -282,488 +766,52 @@
         "text": "Freak of nature"
       },
       {
-        "intent": "joke1_answ",
-        "text": "Breasts don’t have eyes"
+        "intent": "user_is_clueless",
+        "text": "why?"
       },
       {
-        "intent": "joke1_answ",
-        "text": "Boobs don't have eyes"
+        "intent": "user_is_clueless",
+        "text": "How?"
       },
       {
-        "intent": "joke1_answ",
-        "text": "No eyes on boobies"
+        "intent": "user_is_clueless",
+        "text": "I don't know"
       },
       {
-        "intent": "joke2_answ",
-        "text": "With a big wave"
+        "intent": "user_is_clueless",
+        "text": "I don't know"
       },
       {
-        "intent": "joke2_answ",
-        "text": "A wave"
+        "intent": "user_is_clueless",
+        "text": "Lol what is this?"
       },
       {
-        "intent": "joke2_answ",
-        "text": "One big wave"
+        "intent": "user_is_clueless",
+        "text": "Strange. I don't know"
       },
       {
-        "intent": "joke2_answ",
-        "text": "a big wave"
+        "intent": "user_is_clueless",
+        "text": "I can't guess what you are"
       },
       {
-        "intent": "joke3_answ",
-        "text": "Hot, because you can catch a cold."
+        "intent": "user_is_clueless",
+        "text": "I haven't got a clue"
       },
       {
-        "intent": "joke3_answ",
-        "text": "It's definitely hot, a cold can be caught."
+        "intent": "user_is_clueless",
+        "text": "What?"
       },
       {
-        "intent": "joke3_answ",
-        "text": "No doubt hot since you can catch a cold"
+        "intent": "user_is_clueless",
+        "text": "bestiality is the outcome"
       },
       {
-        "intent": "joke3_answ",
-        "text": "You can catch a cold, so it has to be hot"
+        "intent": "user_is_clueless",
+        "text": "I don't speak their language. I would not know. Tell me"
       },
       {
-        "intent": "joke4_answ",
-        "text": "After a year, the dog is still excited to see you."
-      },
-      {
-        "intent": "joke4_answ",
-        "text": "I think the dog is still excited to see you"
-      },
-      {
-        "intent": "joke4_answ",
-        "text": "A dog will be happy and excited to see you"
-      },
-      {
-        "intent": "joke4_answ",
-        "text": "A dog will be happy to see you"
-      },
-      {
-        "intent": "joke5_answ",
-        "text": "Because those men already have boyfriends."
-      },
-      {
-        "intent": "joke5_answ",
-        "text": "They are gay"
-      },
-      {
-        "intent": "joke5_answ",
-        "text": "They are faggots"
-      },
-      {
-        "intent": "joke5_answ",
-        "text": "They are queers"
-      },
-      {
-        "intent": "joke6_answ",
-        "text": "Of course it is a Banana. What else would it be."
-      },
-      {
-        "intent": "joke6_answ",
-        "text": "Banana"
-      },
-      {
-        "intent": "joke6_answ",
-        "text": "It could be a banana"
-      },
-      {
-        "intent": "joke6_answ",
-        "text": "Is it a banana"
-      },
-      {
-        "intent": "joke7_answ",
-        "text": "It is Ice-cream"
-      },
-      {
-        "intent": "joke7_answ",
-        "text": "Is it ice- cream"
-      },
-      {
-        "intent": "joke7_answ",
-        "text": "I think its ice cream"
-      },
-      {
-        "intent": "joke7_answ",
-        "text": "ice cream"
-      },
-      {
-        "intent": "joke8_answ",
-        "text": "Balloon"
-      },
-      {
-        "intent": "joke8_answ",
-        "text": "Balloons"
-      },
-      {
-        "intent": "joke8_answ",
-        "text": "You are a balloon"
-      },
-      {
-        "intent": "joke8_answ",
-        "text": "I believe it is a balloon"
-      },
-      {
-        "intent": "joke9_answ",
-        "text": "Butter"
-      },
-      {
-        "intent": "joke9_answ",
-        "text": "It is butter"
-      },
-      {
-        "intent": "joke9_answ",
-        "text": "I would guess butter"
-      },
-      {
-        "intent": "joke10_answ",
-        "text": "I can clearly see your nuts."
-      },
-      {
-        "intent": "joke10_answ",
-        "text": "You ae nuts"
-      },
-      {
-        "intent": "joke10_answ",
-        "text": "You're nuts"
-      },
-      {
-        "intent": "joke11_answ",
-        "text": "You get kicked out of the petting zoo"
-      },
-      {
-        "intent": "joke11_answ",
-        "text": "You'll get banned by the petting zoo"
-      },
-      {
-        "intent": "joke11_answ",
-        "text": "You'll be kicked out of the zoo"
-      },
-      {
-        "intent": "joke11_answ",
-        "text": "The zoo will make sure you are banned"
-      },
-      {
-        "intent": "joke11_answ",
-        "text": "They will kick you out"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Fuck off"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Screw you"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Dickhead"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Dick"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Asshole"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Fuck you"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Cunt"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Fucker"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Jack ass"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Son of a bitch"
-      },
-      {
-        "intent": "user_says_bad_word",
-        "text": "Mother fucker"
-      },
-      {
-        "intent": "mood_affirm",
-        "text": "yes"
-      },
-      {
-        "intent": "mood_affirm",
-        "text": "indeed"
-      },
-      {
-        "intent": "mood_affirm",
-        "text": "of course"
-      },
-      {
-        "intent": "mood_affirm",
-        "text": "that sounds good"
-      },
-      {
-        "intent": "mood_affirm",
-        "text": "correct"
-      },
-      {
-        "intent": "user_dont_understand",
-        "text": "I don't understand the joke"
-      },
-      {
-        "intent": "user_dont_understand",
-        "text": "I don't understand this"
-      },
-      {
-        "intent": "user_dont_understand",
-        "text": "I don't get it"
-      },
-      {
-        "intent": "user_dont_understand",
-        "text": "Can you explain it to me?"
-      },
-      {
-        "intent": "user_dont_understand",
-        "text": "Please feel free to educate me on this"
-      },
-      {
-        "intent": "user_dont_understand",
-        "text": "Elaborate please."
-      },
-      {
-        "intent": "mood_deny",
-        "text": "no"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "never"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "I don't think so"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "don't like that"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "no way"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "not really"
-      },
-      {
-        "intent": "mood_great",
-        "text": "perfect"
-      },
-      {
-        "intent": "mood_great",
-        "text": "very good"
-      },
-      {
-        "intent": "mood_great",
-        "text": "great"
-      },
-      {
-        "intent": "mood_great",
-        "text": "amazing"
-      },
-      {
-        "intent": "mood_great",
-        "text": "wonderful"
-      },
-      {
-        "intent": "mood_great",
-        "text": "I am feeling very good"
-      },
-      {
-        "intent": "mood_great",
-        "text": "I am great"
-      },
-      {
-        "intent": "mood_great",
-        "text": "I'm good"
-      },
-      {
-        "intent": "mood_great",
-        "text": "I am doing great"
-      },
-      {
-        "intent": "mood_great",
-        "text": "I am fine."
-      },
-      {
-        "intent": "mood_great",
-        "text": "I am fine. Thanks for asking."
-      },
-      {
-        "intent": "mood_great",
-        "text": "I am feeling good. Thank you for asking."
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "sad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "very sad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "unhappy"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "bad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "very bad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "awful"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "terrible"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "not very good"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "extremely sad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "so sad"
-      },
-      {
-        "intent": "negative_user_name_response",
-        "text": "I don't want to"
-      },
-      {
-        "intent": "negative_user_name_response",
-        "text": "You don't need to know"
-      },
-      {
-        "intent": "negative_user_name_response",
-        "text": "I don't want to tell you"
-      },
-      {
-        "intent": "negative_user_name_response",
-        "text": "I am not comfortable telling you my name"
-      },
-      {
-        "intent": "negative_user_name_response",
-        "text": "I don't feel like telling you"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "Yes"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "yes"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "sure"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "of course"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "tell me"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "Yes, I want to know"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "Please, tell me"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "Go ahead"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "shoot"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "Yes, tell me what the joke is"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "Of course I want to know the joke"
-      },
-      {
-        "intent": "positive_joke_reply",
-        "text": "Yes, tell me the joke"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "Yes"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "yes"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "sure"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "of course"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "tell me"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "Yes, I want to know"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "Please, tell me"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "Go ahead"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "shoot"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "Yes, tell me your name"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "Of course I want to know your name"
-      },
-      {
-        "intent": "user_asks_bot_name_positive",
-        "text": "Yes, tell me your name"
+        "intent": "user_is_clueless",
+        "text": "I don't know"
       },
       {
         "intent": "user_joke",
@@ -796,6 +844,10 @@
       {
         "intent": "user_joke",
         "text": "I know none"
+      },
+      {
+        "intent": "user_joke",
+        "text": "I wish I could"
       },
       {
         "intent": "user_name_prompt_reply",
@@ -856,6 +908,74 @@
           }
         ],
         "text": "John"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "James",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is James"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Roger",
+            "entity": "name"
+          }
+        ],
+        "text": "Roger"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Fuck off"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Screw you"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Dickhead"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Dick"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Asshole"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Fuck you"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Cunt"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Fucker"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Jack ass"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Son of a bitch"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Mother fucker"
       }
     ],
     "regex_features": [],
