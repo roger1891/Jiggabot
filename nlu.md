@@ -82,9 +82,12 @@
 ## intent:joke2_answ
 - With a big wave
 - A wave
+- One big wave
+- a big wave
 
 ## intent:joke3_answ
 - Hot, because you can catch a cold.
+- 
 
 ## intent:joke4_answ
 - After a year, the dog is still excited to see you.
@@ -98,11 +101,15 @@
 ## intent:joke6_answ
 - Of course it is a Banana. What else would it be.
 - Banana
+- It could be a banana
+- Is it a banana
 
 ## intent:joke7_answ
 - It is Ice-cream
-
+- Is it ice- cream
+- I think its ice cream
 - ice cream
+
 ## intent:joke8_answ
 - Balloon
 - Balloons
