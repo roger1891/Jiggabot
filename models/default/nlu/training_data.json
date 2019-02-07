@@ -302,12 +302,44 @@
         "text": "A wave"
       },
       {
+        "intent": "joke2_answ",
+        "text": "One big wave"
+      },
+      {
+        "intent": "joke2_answ",
+        "text": "a big wave"
+      },
+      {
         "intent": "joke3_answ",
         "text": "Hot, because you can catch a cold."
       },
       {
+        "intent": "joke3_answ",
+        "text": "It's definitely hot, a cold can be caught."
+      },
+      {
+        "intent": "joke3_answ",
+        "text": "No doubt hot since you can catch a cold"
+      },
+      {
+        "intent": "joke3_answ",
+        "text": "You can catch a cold, so it has to be hot"
+      },
+      {
         "intent": "joke4_answ",
         "text": "After a year, the dog is still excited to see you."
+      },
+      {
+        "intent": "joke4_answ",
+        "text": "I think the dog is still excited to see you"
+      },
+      {
+        "intent": "joke4_answ",
+        "text": "A dog will be happy and excited to see you"
+      },
+      {
+        "intent": "joke4_answ",
+        "text": "A dog will be happy to see you"
       },
       {
         "intent": "joke5_answ",
@@ -334,8 +366,24 @@
         "text": "Banana"
       },
       {
+        "intent": "joke6_answ",
+        "text": "It could be a banana"
+      },
+      {
+        "intent": "joke6_answ",
+        "text": "Is it a banana"
+      },
+      {
         "intent": "joke7_answ",
         "text": "It is Ice-cream"
+      },
+      {
+        "intent": "joke7_answ",
+        "text": "Is it ice- cream"
+      },
+      {
+        "intent": "joke7_answ",
+        "text": "I think its ice cream"
       },
       {
         "intent": "joke7_answ",
@@ -352,6 +400,10 @@
       {
         "intent": "joke8_answ",
         "text": "You are a balloon"
+      },
+      {
+        "intent": "joke8_answ",
+        "text": "I believe it is a balloon"
       },
       {
         "intent": "joke9_answ",
@@ -371,11 +423,31 @@
       },
       {
         "intent": "joke10_answ",
-        "text": "You are nuts"
+        "text": "You ae nuts"
+      },
+      {
+        "intent": "joke10_answ",
+        "text": "You're nuts"
       },
       {
         "intent": "joke11_answ",
         "text": "You get kicked out of the petting zoo"
+      },
+      {
+        "intent": "joke11_answ",
+        "text": "You'll get banned by the petting zoo"
+      },
+      {
+        "intent": "joke11_answ",
+        "text": "You'll be kicked out of the zoo"
+      },
+      {
+        "intent": "joke11_answ",
+        "text": "The zoo will make sure you are banned"
+      },
+      {
+        "intent": "joke11_answ",
+        "text": "They will kick you out"
       },
       {
         "intent": "user_says_bad_word",
@@ -412,6 +484,14 @@
       {
         "intent": "user_says_bad_word",
         "text": "Jack ass"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Son of a bitch"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Mother fucker"
       },
       {
         "intent": "mood_affirm",
@@ -516,6 +596,18 @@
       {
         "intent": "mood_great",
         "text": "I am doing great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am fine."
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am fine. Thanks for asking."
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling good. Thank you for asking."
       },
       {
         "intent": "mood_unhappy",

@@ -128,6 +128,8 @@ templates:
   - text: I’m not a proctologist, but I know an asshole when I see one.
   - text: I was hoping for a battle of wits but it would be wrong to attack someone
       who’s totally unarmed.
+  utter_default:
+  - text: Type 'I don't know' if you don't have an answer.
   utter_end_conversation:
   - text: Please, keep talking. I only yawn when I’m super fascinated.. Lets call
       it a day!
