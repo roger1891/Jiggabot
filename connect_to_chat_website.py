@@ -65,11 +65,11 @@ def send_message_to_chat(message_input_param, msg, send_btn_param, time_before_s
 def switch_between_turns(message_input_param, send_btn_param):
   #determine turn
   turn = determine_turn()
-  #counter for 
+  #counter for       
   count = 0
-  
+
   #while true
-  while True:      
+  while True:
     #check if last item is "You"                  
     if turn.text == "You":  
       #if it is then: Strangers turn
@@ -78,16 +78,21 @@ def switch_between_turns(message_input_param, send_btn_param):
       time.sleep(5) # seconds
       #increase count by 1
       count+=1
-      # if after 2 cycles of 5 seconds (10) seconds say stomething
-      if(count > 2):
+      # if after 5 cycles of 5 seconds (25) seconds say stomething
+      print ("the count is " + str(count))
+      if(count > 5):
         print ("say something to stranger")
         #send rehook message to chat
         send_message_to_chat(message_input_param, re_hook_msg, send_btn_param, 0.5)
+        #reset count to 0
+        count = 0
       try:
         #check turn
         turn = determine_turn()
         #if stranger not responding rhen type somthing
       except (NoSuchElementException, StaleElementReferenceException, InvalidElementStateException, UnexpectedAlertPresentException) : 
+        #reset count to 0
+        count = 0
         continue
       
     #check if last item is "Stranger"
@@ -114,8 +119,19 @@ def switch_between_turns(message_input_param, send_btn_param):
       except (NoSuchElementException, StaleElementReferenceException, InvalidElementStateException, UnexpectedAlertPresentException) : 
         continue
       
-    else:     
-      print("Sranger is typing") 
+    #if stranger disconnects
+    elif turn.text == "Stranger has disconnected.":           
+      try:
+        chat_box = driver.find_element_by_id("msgs")
+        #pause 5 secs
+        time.sleep(5) # seconds
+        #get  start new button
+        start_new_btn = driver.find_element_by_id("start_new")
+        #click the btn
+        start_new_btn.click()
+        print("Sranger is typing") 
+      except (NoSuchElementException, StaleElementReferenceException, InvalidElementStateException, UnexpectedAlertPresentException) : 
+        continue
       
 
 #run connect ot website
