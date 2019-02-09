@@ -17,6 +17,13 @@
 - good bye
 - bye bye
 
+## intent:negative_joke_reply
+- I don't wanna hear your joke
+- nope
+- Don't try to sell me a joke
+- I don't want to know
+- Please spare me with your jokes
+
 ## intent:where_u_from
 - Where you from?
 - where you from?
@@ -25,6 +32,13 @@
 - Location?
 - What country are you from?
 - From where are you?
+- You are not Indonesian r u
+- Are you German
+- Are you American
+- Are you Thai
+- Are you Chinese?
+- where you from mate?
+
 
 ## intent:whats_your_age
 - What's your age
@@ -33,6 +47,11 @@
 - Age?
 - Tell me your age?
 - ur age?
+- Shall i know yout age?
+- I want to know your age
+- How old are you?
+- How old are you again?
+- Age please
 
 ## intent:greet
 - hey
@@ -49,6 +68,8 @@
 - how are you
 - good day
 - Hii
+- Hi 19 year old male
+- i am 36 yrs india
 
 ## intent:joke10_answ
 - I can clearly see your nuts.
@@ -132,6 +153,11 @@
 - no way
 - not really
 - na, not really
+- I don't want to
+- You don't need to know
+- I don't want to tell you
+- I am not comfortable telling you my name
+- I don't feel like telling you
 
 ## intent:mood_great
 - perfect
@@ -150,6 +176,7 @@
 - I am all good. Thanks for asking
 - Good
 - Fine ...you?
+- Great
 
 ## intent:mood_unhappy
 - sad
@@ -162,13 +189,9 @@
 - not very good
 - extremely sad
 - so sad
-
-## intent:negative_user_name_response
-- I don't want to
-- You don't need to know
-- I don't want to tell you
-- I am not comfortable telling you my name
-- I don't feel like telling you
+- i lost my wife 4 yrs ago
+- somebody died
+- there was death
 
 ## intent:positive_joke_reply
 - Yes
@@ -186,6 +209,20 @@
 - yes
 - yes
 - Just go ahead.
+- You have more
+- Do you have more jokes?
+- I want to hear more jokes
+- Tell me more jokes!
+- Yep definitely :D
+- Yep
+- Definitely
+- Yeah tell mee
+- Yeahhh
+- Yah
+- Yas
+- Hell yea
+- Anything that makes me laugh or feel happy
+- Go ahead
 
 ## intent:user_asks_bot_name_positive
 - Yes
@@ -202,6 +239,17 @@
 - Yes, tell me your name
 - I do want to know your name
 - Just go ahead.
+- Yep definitely :D
+- Yep
+- Definitely
+- Your name please
+- I want to know your name
+- Yeah tell mee
+- Yeahhh
+- Yah
+- Yas
+- Hell yea
+- Go ahead
 
 ## intent:user_dont_understand
 - I don't understand the joke
@@ -281,6 +329,9 @@
 - I don't speak their language. I would not know. Tell me
 - I don't know
 - Idk
+- Umm idk
+- I'm a very slow thinker
+- idk, why
 
 ## intent:user_joke
 - Why did the chicken cross the road
@@ -292,6 +343,52 @@
 - Nope
 - I know none
 - I wish I could
+
+## intent:are_you_real
+- Are u even real person?
+- Are you real?
+- are you legit?
+- Are you a bot?
+- You are a bot?
+- You are not a real person
+- You aren't real
+- Tell me you're real
+- Are you for real?
+
+## intent:not_focused
+- U said the same thing 3 times already
+- Roses are read, violets are blue...
+- And beautiful girls
+- Been on vacation
+- I been to Pattaya in 2016
+- Do you have black eyes
+- Are you tiny
+- Are you petite
+- Are you big
+- Are you fat
+- Are you small
+- Do you have big breasts?
+- Do you have tiny breasts?
+- Please tell me you are looking for love
+- Love is what I am looking for
+- What about your butt
+- U like sex chat?
+- Tell me u like sex?
+- I m too much horny now
+- Horny now
+- I am so horny
+- Please tell me what you are wearing
+- I am super horny
+
+
+## intent:what_do_you_do
+- What do you do?
+- What work do you do?
+- What do you do for a living?
+- I work on drilling rigs. How about you?
+- I am an engineer. How about you?
+- I am an accountant. You?
+- What are you up to?
 
 ## intent:user_name_prompt_reply
 - My name is [George](name)
@@ -305,6 +402,34 @@
 - My name is [Kishan](name)
 - Im [James](name)
 - [Kishan](name)
+- [Michael](name)
+- [Franz](name)
+- [John](name)
+- [Robert](name)
+- [Wiliam](name)
+- [Matt](name)
+- My name is [Matt](name)
+
+## intent:compliment
+- your funny
+- your too sweet
+- you are hilarious
+- you are funny
+- You are entertaining
+- You are such a sweetheart
+- Lmfao
+- Laughing my ass of
+- who the fuck are you lol
+- lol
+- wanna be my fran
+- wanna be my friend?
+- Awesome
+- Happy to hear that
+- I see funnyman haha
+- u must be smiling always
+- you must be always smiling
+- thats best thing one can do to onself
+- do you like cookies
 
 ## intent:user_says_bad_word
 - Fuck off
@@ -322,3 +447,7 @@
 - Take mine first into deep throat
 - Wanna suck my cock
 - Take mine first into deep throat
+- unfortunately snowflake 2019 people think it’s a smart ass comment soo sad these days
+- Do u have short memory loss
+- I want ur pussy
+- Want to fuck you

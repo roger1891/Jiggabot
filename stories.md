@@ -50,6 +50,10 @@
     - utter_end_conversation
     - utter_goodbye
 
+# compliment
+* compliment
+    - utter_compliment
+
 # greet plus determine gender
 * greet
     - utter_greet
@@ -59,6 +63,19 @@
 # determine gender
 * asks_gender
     - utter_i_am_female
+  
+# question whether real
+* are_you_real
+    - utter_i_am_real  
+    
+# not focused
+* not_focused
+    - utter_redirect_conversation   
+    - utter_joke_prompt
+    
+# profession
+* what_do_you_do
+     - utter_what_i_do     
   
 # greet plus location
 * greet
@@ -261,7 +278,7 @@
     - utter_greet
 * mood_great
     - utter_user_name_prompt
-* negative_user_name_response
+* mood_deny
     - utter_negative_user_name_response
     - utter_want_to_know_my_name
 * mood_deny
@@ -311,7 +328,7 @@
     - utter_greet
 * mood_great
     - utter_user_name_prompt
-* negative_user_name_response
+* mood_deny
     - utter_negative_user_name_response
     - utter_want_to_know_my_name
 * mood_deny
@@ -335,7 +352,9 @@
 * goodbye
     - utter_goodbye
   
-
+## doesn't want jokes
+* negative_joke_reply
+    - goodbye
 
 ## Generated Story 260849555570653091
 * greet
