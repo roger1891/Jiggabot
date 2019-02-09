@@ -42,7 +42,12 @@ actions:
 - utter_joke2_answ
 - utter_joke6_answ
 - utter_joke7_quest
-- hold
+- utter_compliment
+- utter_age
+- utter_location
+- utter_i_am_female
+- utter_i_am_real
+- utter_what_i_do
 config:
   store_entities_as_slots: true
 entities:
@@ -52,6 +57,8 @@ intents:
 - greet:
     use_entities: true
 - positive_joke_reply:
+    use_entities: true
+- negative_joke_reply:
     use_entities: true
 - user_is_clueless:
     use_entities: true
@@ -68,8 +75,6 @@ intents:
 - user_asks_bot_name_positive:
     use_entities: true
 - user_joke:
-    use_entities: true
-- negative_user_name_response:
     use_entities: true
 - joke2_answ:
     use_entities: true
@@ -105,12 +110,29 @@ intents:
     use_entities: true
 - mood_unhappy:
     use_entities: true
+- asks_gender:
+    use_entities: true
+- where_u_from:
+    use_entities: true
+- whats_your_age:
+    use_entities: true
+- compliment:
+    use_entities: true
+- are_you_real:
+    use_entities: true
+- not_focused:
+    use_entities: true
+- what_do_you_do:
+    use_entities: true
 slots:
   name:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_age:
+  - text: I am ((3*2) + 5 +7 + 1) * ((2*9)+1) years old
+  - text: I am 350 + (2*7) -2 + 5 -3 - 2 - 1 and the square root of that years old
   utter_bad_word:
   - text: I’m sorry, what language are you speaking? It sounds like bullshit.
   - text: If you’re going to be a smart ass, first you have to be smart, otherwise
@@ -128,6 +150,12 @@ templates:
   - text: I’m not a proctologist, but I know an asshole when I see one.
   - text: I was hoping for a battle of wits but it would be wrong to attack someone
       who’s totally unarmed.
+  - text: You’re the argumentative type.
+  utter_compliment:
+  - text: Your too sweet.
+  - text: Thank you.
+  - text: You are a nice person.
+  - text: words can't descibe how kind you are.
   utter_default:
   - text: Type 'I don't know' if you don't have an answer.
   utter_end_conversation:
@@ -145,6 +173,16 @@ templates:
   - text: Hey! How are you?
   utter_happy:
   - text: Great carry on!
+  utter_i_am_female:
+  - text: I a sophisticated Sex-Robot sent through time to change the future for one
+      lucky guy.
+  - text: I am a female all right.
+  - text: I am male with a little bit of fe
+  utter_i_am_real:
+  - text: Of course I am real.
+  - text: I am as real as they get.
+  - text: Why wouldn't I be? human...
+  - text: I am the realest
   utter_joke10_answ:
   - text: Well, I can clearly see your nuts.
   utter_joke10_quest:
@@ -196,6 +234,13 @@ templates:
   utter_leave_prompt:
   - text: I’m trying my absolute hardest to see things from your perspective, but
       I just can’t get my head that far up my ass. Remember, you can always leave!
+  utter_location:
+  - text: I am from Malaysia
+  - text: I am from China
+  - text: I am from Thailand
+  - text: I live in New Zealand
+  - text: I reside in Togo
+  - text: I am from Japan
   utter_negative_joke_prompt:
   - text: Some people should use a glue stick instead of chapstick. You can always
       leave this conversation if you want.
@@ -206,6 +251,7 @@ templates:
   utter_positive_my_name_response:
   - text: Mia Khalifa... That's my stripper name. Kidding aside my name is Cynthia.
   - text: I'd tell you but I don't like being labeled.
+  - text: My name is Cynthia.
   utter_positive_user_name_response:
   - text: "{name}, that's a nice name."
   utter_redirect_conversation:
@@ -231,6 +277,11 @@ templates:
   - text: Great! What's your name?
   utter_want_to_know_my_name:
   - text: Wanna know my name?
+  utter_what_i_do:
+  - text: I do things no other person would o
+  - text: I work on the impossible
+  - text: I would have to kill you if I told you ;)
+  - text: I am a teacher and you are my student.
   utter_you_are_correct:
   - text: Bulls eye! You are correct!
   - text: You are right!

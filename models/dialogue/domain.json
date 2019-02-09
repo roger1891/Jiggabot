@@ -1,5 +1,8 @@
 {
   "states": [
+    "intent_are_you_real",
+    "intent_asks_gender",
+    "intent_compliment",
     "intent_end_conversation",
     "intent_goodbye",
     "intent_greet",
@@ -19,7 +22,8 @@
     "intent_mood_deny",
     "intent_mood_great",
     "intent_mood_unhappy",
-    "intent_negative_user_name_response",
+    "intent_negative_joke_reply",
+    "intent_not_focused",
     "intent_positive_joke_reply",
     "intent_redirect_conversation",
     "intent_user_asks_bot_name_positive",
@@ -28,6 +32,9 @@
     "intent_user_joke",
     "intent_user_name_prompt_reply",
     "intent_user_says_bad_word",
+    "intent_what_do_you_do",
+    "intent_whats_your_age",
+    "intent_where_u_from",
     "entity_name",
     "slot_name_0",
     "prev_action_listen",
@@ -78,6 +85,11 @@
     "prev_utter_joke2_answ",
     "prev_utter_joke6_answ",
     "prev_utter_joke7_quest",
-    "prev_hold"
+    "prev_utter_compliment",
+    "prev_utter_age",
+    "prev_utter_location",
+    "prev_utter_i_am_female",
+    "prev_utter_i_am_real",
+    "prev_utter_what_i_do"
   ]
 }

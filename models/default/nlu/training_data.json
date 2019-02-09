@@ -2,6 +2,30 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "asks_gender",
+        "text": "Are you female?"
+      },
+      {
+        "intent": "asks_gender",
+        "text": "are you f?"
+      },
+      {
+        "intent": "asks_gender",
+        "text": "F?"
+      },
+      {
+        "intent": "asks_gender",
+        "text": "Are you a girl?"
+      },
+      {
+        "intent": "asks_gender",
+        "text": "What sex are you?"
+      },
+      {
+        "intent": "asks_gender",
+        "text": "What gender are you?"
+      },
+      {
         "intent": "goodbye",
         "text": "bye"
       },
@@ -36,6 +60,122 @@
       {
         "intent": "goodbye",
         "text": "bye bye"
+      },
+      {
+        "intent": "negative_joke_reply",
+        "text": "I don't wanna hear your joke"
+      },
+      {
+        "intent": "negative_joke_reply",
+        "text": "nope"
+      },
+      {
+        "intent": "negative_joke_reply",
+        "text": "Don't try to sell me a joke"
+      },
+      {
+        "intent": "negative_joke_reply",
+        "text": "I don't want to know"
+      },
+      {
+        "intent": "negative_joke_reply",
+        "text": "Please spare me with your jokes"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "Where you from?"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "where you from?"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "location"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "What is your location?"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "Location?"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "What country are you from?"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "From where are you?"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "You are not Indonesian r u"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "Are you German"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "Are you American"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "Are you Thai"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "Are you Chinese?"
+      },
+      {
+        "intent": "where_u_from",
+        "text": "where you from mate?"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "What's your age"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "What is your age?"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "How old are you?"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "Age?"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "Tell me your age?"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "ur age?"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "Shall i know yout age?"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "I want to know your age"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "How old are you?"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "How old are you again?"
+      },
+      {
+        "intent": "whats_your_age",
+        "text": "Age please"
       },
       {
         "intent": "greet",
@@ -79,14 +219,6 @@
       },
       {
         "intent": "greet",
-        "text": "hi"
-      },
-      {
-        "intent": "greet",
-        "text": "hi"
-      },
-      {
-        "intent": "greet",
         "text": "how is your day"
       },
       {
@@ -96,6 +228,18 @@
       {
         "intent": "greet",
         "text": "good day"
+      },
+      {
+        "intent": "greet",
+        "text": "Hii"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi 19 year old male"
+      },
+      {
+        "intent": "greet",
+        "text": "i am 36 yrs india"
       },
       {
         "intent": "joke10_answ",
@@ -326,6 +470,26 @@
         "text": "na, not really"
       },
       {
+        "intent": "mood_deny",
+        "text": "I don't want to"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "You don't need to know"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I don't want to tell you"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I am not comfortable telling you my name"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I don't feel like telling you"
+      },
+      {
         "intent": "mood_great",
         "text": "perfect"
       },
@@ -382,6 +546,18 @@
         "text": "I am all good. Thanks for asking"
       },
       {
+        "intent": "mood_great",
+        "text": "Good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "Fine ...you?"
+      },
+      {
+        "intent": "mood_great",
+        "text": "Great"
+      },
+      {
         "intent": "mood_unhappy",
         "text": "sad"
       },
@@ -422,24 +598,16 @@
         "text": "so sad"
       },
       {
-        "intent": "negative_user_name_response",
-        "text": "I don't want to"
+        "intent": "mood_unhappy",
+        "text": "i lost my wife 4 yrs ago"
       },
       {
-        "intent": "negative_user_name_response",
-        "text": "You don't need to know"
+        "intent": "mood_unhappy",
+        "text": "somebody died"
       },
       {
-        "intent": "negative_user_name_response",
-        "text": "I don't want to tell you"
-      },
-      {
-        "intent": "negative_user_name_response",
-        "text": "I am not comfortable telling you my name"
-      },
-      {
-        "intent": "negative_user_name_response",
-        "text": "I don't feel like telling you"
+        "intent": "mood_unhappy",
+        "text": "there was death"
       },
       {
         "intent": "positive_joke_reply",
@@ -498,6 +666,66 @@
         "text": "yes"
       },
       {
+        "intent": "positive_joke_reply",
+        "text": "Just go ahead."
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "You have more"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Do you have more jokes?"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "I want to hear more jokes"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Tell me more jokes!"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Yep definitely :D"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Yep"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Definitely"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Yeah tell mee"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Yeahhh"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Yah"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Yas"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Hell yea"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Anything that makes me laugh or feel happy"
+      },
+      {
+        "intent": "positive_joke_reply",
+        "text": "Go ahead"
+      },
+      {
         "intent": "user_asks_bot_name_positive",
         "text": "Yes"
       },
@@ -548,6 +776,54 @@
       {
         "intent": "user_asks_bot_name_positive",
         "text": "I do want to know your name"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Just go ahead."
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Yep definitely :D"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Yep"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Definitely"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Your name please"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "I want to know your name"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Yeah tell mee"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Yeahhh"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Yah"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Yas"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Hell yea"
+      },
+      {
+        "intent": "user_asks_bot_name_positive",
+        "text": "Go ahead"
       },
       {
         "intent": "user_dont_understand",
@@ -846,6 +1122,22 @@
         "text": "I don't know"
       },
       {
+        "intent": "user_is_clueless",
+        "text": "Idk"
+      },
+      {
+        "intent": "user_is_clueless",
+        "text": "Umm idk"
+      },
+      {
+        "intent": "user_is_clueless",
+        "text": "I'm a very slow thinker"
+      },
+      {
+        "intent": "user_is_clueless",
+        "text": "idk, why"
+      },
+      {
         "intent": "user_joke",
         "text": "Why did the chicken cross the road"
       },
@@ -880,6 +1172,162 @@
       {
         "intent": "user_joke",
         "text": "I wish I could"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "Are u even real person?"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "Are you real?"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "are you legit?"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "Are you a bot?"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "You are a bot?"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "You are not a real person"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "You aren't real"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "Tell me you're real"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "Are you for real?"
+      },
+      {
+        "intent": "not_focused",
+        "text": "U said the same thing 3 times already"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Roses are read, violets are blue..."
+      },
+      {
+        "intent": "not_focused",
+        "text": "And beautiful girls"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Been on vacation"
+      },
+      {
+        "intent": "not_focused",
+        "text": "I been to Pattaya in 2016"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Do you have black eyes"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Are you tiny"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Are you petite"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Are you big"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Are you fat"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Are you small"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Do you have big breasts?"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Do you have tiny breasts?"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Please tell me you are looking for love"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Love is what I am looking for"
+      },
+      {
+        "intent": "not_focused",
+        "text": "What about your butt"
+      },
+      {
+        "intent": "not_focused",
+        "text": "U like sex chat?"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Tell me u like sex?"
+      },
+      {
+        "intent": "not_focused",
+        "text": "I m too much horny now"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Horny now"
+      },
+      {
+        "intent": "not_focused",
+        "text": "I am so horny"
+      },
+      {
+        "intent": "not_focused",
+        "text": "Please tell me what you are wearing"
+      },
+      {
+        "intent": "not_focused",
+        "text": "I am super horny"
+      },
+      {
+        "intent": "what_do_you_do",
+        "text": "What do you do?"
+      },
+      {
+        "intent": "what_do_you_do",
+        "text": "What work do you do?"
+      },
+      {
+        "intent": "what_do_you_do",
+        "text": "What do you do for a living?"
+      },
+      {
+        "intent": "what_do_you_do",
+        "text": "I work on drilling rigs. How about you?"
+      },
+      {
+        "intent": "what_do_you_do",
+        "text": "I am an engineer. How about you?"
+      },
+      {
+        "intent": "what_do_you_do",
+        "text": "I am an accountant. You?"
+      },
+      {
+        "intent": "what_do_you_do",
+        "text": "What are you up to?"
       },
       {
         "intent": "user_name_prompt_reply",
@@ -990,6 +1438,190 @@
         "text": "My name is Kishan"
       },
       {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "James",
+            "entity": "name"
+          }
+        ],
+        "text": "Im James"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Kishan",
+            "entity": "name"
+          }
+        ],
+        "text": "Kishan"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Michael",
+            "entity": "name"
+          }
+        ],
+        "text": "Michael"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Franz",
+            "entity": "name"
+          }
+        ],
+        "text": "Franz"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "John",
+            "entity": "name"
+          }
+        ],
+        "text": "John"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Robert",
+            "entity": "name"
+          }
+        ],
+        "text": "Robert"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Wiliam",
+            "entity": "name"
+          }
+        ],
+        "text": "Wiliam"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Matt",
+            "entity": "name"
+          }
+        ],
+        "text": "Matt"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Matt",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Matt"
+      },
+      {
+        "intent": "compliment",
+        "text": "your funny"
+      },
+      {
+        "intent": "compliment",
+        "text": "your too sweet"
+      },
+      {
+        "intent": "compliment",
+        "text": "you are hilarious"
+      },
+      {
+        "intent": "compliment",
+        "text": "you are funny"
+      },
+      {
+        "intent": "compliment",
+        "text": "You are entertaining"
+      },
+      {
+        "intent": "compliment",
+        "text": "You are such a sweetheart"
+      },
+      {
+        "intent": "compliment",
+        "text": "Lmfao"
+      },
+      {
+        "intent": "compliment",
+        "text": "Laughing my ass of"
+      },
+      {
+        "intent": "compliment",
+        "text": "who the fuck are you lol"
+      },
+      {
+        "intent": "compliment",
+        "text": "lol"
+      },
+      {
+        "intent": "compliment",
+        "text": "wanna be my fran"
+      },
+      {
+        "intent": "compliment",
+        "text": "wanna be my friend?"
+      },
+      {
+        "intent": "compliment",
+        "text": "Awesome"
+      },
+      {
+        "intent": "compliment",
+        "text": "Happy to hear that"
+      },
+      {
+        "intent": "compliment",
+        "text": "I see funnyman haha"
+      },
+      {
+        "intent": "compliment",
+        "text": "u must be smiling always"
+      },
+      {
+        "intent": "compliment",
+        "text": "you must be always smiling"
+      },
+      {
+        "intent": "compliment",
+        "text": "thats best thing one can do to onself"
+      },
+      {
+        "intent": "compliment",
+        "text": "do you like cookies"
+      },
+      {
         "intent": "user_says_bad_word",
         "text": "Fuck off"
       },
@@ -1040,6 +1672,30 @@
       {
         "intent": "user_says_bad_word",
         "text": "Take mine first into deep throat"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Wanna suck my cock"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Take mine first into deep throat"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "unfortunately snowflake 2019 people think it’s a smart ass comment soo sad these days"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Do u have short memory loss"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "I want ur pussy"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Want to fuck you"
       }
     ],
     "regex_features": [],

@@ -354,7 +354,7 @@
   
 ## doesn't want jokes
 * negative_joke_reply
-    - goodbye
+    - utter_goodbye
 
 ## Generated Story 260849555570653091
 * greet

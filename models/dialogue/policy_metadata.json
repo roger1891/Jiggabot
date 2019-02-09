@@ -8,7 +8,28 @@
     "utter_goodbye": {
       "slots": []
     },
+    "utter_joke_prompt": {
+      "slots": []
+    },
+    "utter_location": {
+      "slots": []
+    },
+    "utter_what_i_do": {
+      "slots": []
+    },
+    "utter_age": {
+      "slots": []
+    },
+    "utter_compliment": {
+      "slots": []
+    },
     "utter_joke4_answ": {
+      "slots": []
+    },
+    "utter_i_am_female": {
+      "slots": []
+    },
+    "utter_i_am_real": {
       "slots": []
     }
   },
@@ -24,7 +45,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190208-203634",
+  "trained_at": "20190209-210220",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"

@@ -48,8 +48,10 @@ actions:
 - utter_i_am_female
 - utter_i_am_real
 - utter_what_i_do
+
 entities:
 - name
+
 intents:
 - greet
 - positive_joke_reply
@@ -90,38 +92,31 @@ intents:
 slots:
   name:
     type: text
+    
 templates:
   utter_bad_word:
   - text: I’m sorry, what language are you speaking? It sounds like bullshit.
-  - text: If you’re going to be a smart ass, first you have to be smart, otherwise
-      you’re just an ass.
-  - text: You should wear a condom on your head. If you’re going to be a dick, you
-      might as well dress like one.
+  - text: If you’re going to be a smart ass, first you have to be smart, otherwise you’re just an ass.
+  - text: You should wear a condom on your head. If you’re going to be a dick, you might as well dress like one.
   - text: The smartest thing that ever came out of your mouth was a penis.
   - text: Acting like a prick doesn’t make yours grow bigger.
   - text: If I wanted to hear from an asshole, I’d fart.
   - text: Good story, but in what chapter do you shut the fuck up?
-  - text: Can you die of constipation? I ask because I’m worried about how full of
-      shit you are.
-  - text: I can’t help imagining how much awesomer the world would be if your dad
-      had just pulled out.
+  - text: Can you die of constipation? I ask because I’m worried about how full of shit you are.
+  - text: I can’t help imagining how much awesomer the world would be if your dad had just pulled out.
   - text: I’m not a proctologist, but I know an asshole when I see one.
-  - text: I was hoping for a battle of wits but it would be wrong to attack someone
-      who’s totally unarmed.
-  - test: You’re the argumentative type.
+  - text: I was hoping for a battle of wits but it would be wrong to attack someone who’s totally unarmed.
+  - text: You’re the argumentative type.
   utter_default:
-  - text: Type 'I don't know' if you don't have an answer.
+  - text: "Type 'I don't know' if you don't have an answer."
   utter_end_conversation:
-  - text: Please, keep talking. I only yawn when I’m super fascinated.. Lets call
-      it a day!
-  - text: I could eat a bowl of alphabet soup and shit out a smarter statement than
-      whatever you just said. Lets call it a day!
+  - text: Please, keep talking. I only yawn when I’m super fascinated.. Lets call it a day!
+  - text: I could eat a bowl of alphabet soup and shit out a smarter statement than whatever you just said. Lets call it a day!
   utter_goodbye:
   - text: Bye, and remember that the only thing certain in life are death and taxes.
-  - text: 'Adios, or how a one celled organism would say it: Adios amebas!'
+  - text: "Adios, or how a one celled organism would say it: Adios amebas!"
   - text: Good Bye my friend, or in my case bye-nary.
-  - text: Everyone brings happiness to a room. I do when I enter, you do when you
-      leave. Good bye!
+  - text: Everyone brings happiness to a room. I do when I enter, you do when you leave. Good bye!
   utter_greet:
   - text: Hey! How are you?
   utter_happy:
@@ -153,8 +148,7 @@ templates:
   utter_joke5_answ:
   - text: Because those men already have boyfriends.
   utter_joke5_quest:
-  - text: Why is it so hard for women to find men that are sensitive, caring, and
-      good-looking?
+  - text: Why is it so hard for women to find men that are sensitive, caring, and good-looking?
   utter_joke6_answ:
   - text: Of course it is a Banana. What else would it be.
   utter_joke6_quest:
@@ -168,18 +162,15 @@ templates:
   utter_joke8_quest:
   - text: Can you guess what I am? You cannot play with me unless you blow me.
   utter_joke9_answ:
-  - text: It is... butter. What else would you spread before devouring that delicious
-      bread.
+  - text: It is... butter. What else would you spread before devouring that delicious bread.
   utter_joke9_quest:
   - text: You cannot eat me unless you spread me.What am I?
   utter_joke_prompt:
   - text: Wanna hear a joke?
   utter_leave_prompt:
-  - text: I’m trying my absolute hardest to see things from your perspective, but
-      I just can’t get my head that far up my ass. Remember, you can always leave!
+  - text: I’m trying my absolute hardest to see things from your perspective, but I just can’t get my head that far up my ass. Remember, you can always leave!
   utter_negative_joke_prompt:
-  - text: Some people should use a glue stick instead of chapstick. You can always
-      leave this conversation if you want.
+  - text: Some people should use a glue stick instead of chapstick. You can always leave this conversation if you want.
   utter_negative_user_name_response:
   - text: I don’t know what your problem is, but I’m guessing it’s hard to pronounce.
   utter_positive_joke_prompt:
@@ -192,8 +183,7 @@ templates:
   - text: "{name}, that's a nice name."
   utter_redirect_conversation:
   - text: I don’t sugarcoat shit. I’m not Willy Wonka but stay focused Donkey Kong.
-  - text: A bargain is something you don’t need at a price you can’t resist! Eyes
-      on the price!
+  - text: A bargain is something you don’t need at a price you can’t resist! Eyes on the price!
   - text: Are you still interested? Then stay with me.
   - text: Are you still with me?
   utter_user_dont_understand:
