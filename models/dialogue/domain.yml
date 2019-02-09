@@ -204,7 +204,7 @@ templates:
   utter_positive_joke_prompt:
   - text: Great! Now, take a deep breath and then hold it for about twenty minutes.
   utter_positive_my_name_response:
-  - text: Mia Khalifa... That's my stripper name. Kidding aside my name is Jiggabot.
+  - text: Mia Khalifa... That's my stripper name. Kidding aside my name is Cynthia.
   - text: I'd tell you but I don't like being labeled.
   utter_positive_user_name_response:
   - text: "{name}, that's a nice name."

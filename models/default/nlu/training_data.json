@@ -18,6 +18,26 @@
         "text": "see you later"
       },
       {
+        "intent": "goodbye",
+        "text": "ciao"
+      },
+      {
+        "intent": "goodbye",
+        "text": "adios"
+      },
+      {
+        "intent": "goodbye",
+        "text": "sayonara"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
         "intent": "greet",
         "text": "hey"
       },
@@ -66,12 +86,24 @@
         "text": "hi"
       },
       {
+        "intent": "greet",
+        "text": "how is your day"
+      },
+      {
+        "intent": "greet",
+        "text": "how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "good day"
+      },
+      {
         "intent": "joke10_answ",
         "text": "I can clearly see your nuts."
       },
       {
         "intent": "joke10_answ",
-        "text": "You ae nuts"
+        "text": "You are nuts"
       },
       {
         "intent": "joke10_answ",
@@ -934,6 +966,30 @@
         "text": "Roger"
       },
       {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Kishan",
+            "entity": "name"
+          }
+        ],
+        "text": "Kishan"
+      },
+      {
+        "intent": "user_name_prompt_reply",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Kishan",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Kishan"
+      },
+      {
         "intent": "user_says_bad_word",
         "text": "Fuck off"
       },
@@ -971,11 +1027,19 @@
       },
       {
         "intent": "user_says_bad_word",
-        "text": "Son of a bitch"
+        "text": "You little son of a bitch"
       },
       {
         "intent": "user_says_bad_word",
-        "text": "Mother fucker"
+        "text": "You are a Mother fucker"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Turd"
+      },
+      {
+        "intent": "user_says_bad_word",
+        "text": "Take mine first into deep throat"
       }
     ],
     "regex_features": [],
