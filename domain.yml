@@ -74,6 +74,10 @@ intents:
 - goodbye
 - mood_affirm
 - mood_unhappy
+- asks_gender
+- where_u_from
+- whats_your_age
+
 slots:
   name:
     type: text
@@ -171,8 +175,9 @@ templates:
   utter_positive_joke_prompt:
   - text: Great! Now, take a deep breath and then hold it for about twenty minutes.
   utter_positive_my_name_response:
-  - text: Mia Khalifa... That's my stripper name. Kidding aside my name is Jiggabot.
+  - text: Mia Khalifa... That's my stripper name. Kidding aside my name is Cynthia.
   - text: I'd tell you but I don't like being labeled.
+  - text: My name is Cynthia.
   utter_positive_user_name_response:
   - text: "{name}, that's a nice name."
   utter_redirect_conversation:
@@ -210,3 +215,17 @@ templates:
   - text: Great minds think alike.
   - text: You took the words right out of my mouth.
   - text: I couldn't agree more.
+  utter_i_am_female:
+  - text: I a sophisticated Sex-Robot sent through time to change the future for one lucky guy.
+  - text: I am a female all right.
+  - text: I am male with a little bit of fe
+  utter_location:
+  - text: I am from Malaysia
+  - text: I am from China
+  - text: I am from Thailand
+  - text: I live in New Zealand
+  - text: I reside in Togo
+  - text: I am from Japan
+  utter_age:
+  - text: I am ((3*2) + 5 +7 + 1) * ((2*9)+1) years old
+  - I am 350 + (2*7) -2 + 5 -3 - 2 - 1 and the square root of that years old

@@ -1,8 +1,38 @@
+## intent:asks_gender
+- Are you female?
+- are you f?
+- F?
+- Are you a girl?
+- What sex are you?
+- What gender are you?
+
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
+- ciao
+- adios
+- sayonara
+- good bye
+- bye bye
+
+## intent:where_u_from
+- Where you from?
+- where you from?
+- location
+- What is your location?
+- Location?
+- What country are you from?
+- From where are you?
+
+## intent:whats_your_age
+- What's your age
+- What is your age?
+- How old are you?
+- Age?
+- Tell me your age?
+- ur age?
 
 ## intent:greet
 - hey
@@ -15,12 +45,14 @@
 - what's up
 - sup
 - hi
-- hi
-- hi
+- how is your day
+- how are you
+- good day
+- Hii
 
 ## intent:joke10_answ
 - I can clearly see your nuts.
-- You ae nuts
+- You are nuts
 - You're nuts
 
 ## intent:joke11_answ
@@ -116,6 +148,8 @@
 - I am feeling good. Thank you for asking.
 - I am fine
 - I am all good. Thanks for asking
+- Good
+- Fine ...you?
 
 ## intent:mood_unhappy
 - sad
@@ -151,6 +185,7 @@
 - Yes, tell me the joke
 - yes
 - yes
+- Just go ahead.
 
 ## intent:user_asks_bot_name_positive
 - Yes
@@ -166,6 +201,7 @@
 - Of course I want to know your name
 - Yes, tell me your name
 - I do want to know your name
+- Just go ahead.
 
 ## intent:user_dont_understand
 - I don't understand the joke
@@ -244,6 +280,7 @@
 - bestiality is the outcome
 - I don't speak their language. I would not know. Tell me
 - I don't know
+- Idk
 
 ## intent:user_joke
 - Why did the chicken cross the road
@@ -264,6 +301,10 @@
 - [John](name)
 - My name is [James](name)
 - [Roger](name)
+- [Kishan](name)
+- My name is [Kishan](name)
+- Im [James](name)
+- [Kishan](name)
 
 ## intent:user_says_bad_word
 - Fuck off
@@ -278,4 +319,6 @@
 - You little son of a bitch
 - You are a Mother fucker
 - Turd
-
+- Take mine first into deep throat
+- Wanna suck my cock
+- Take mine first into deep throat
