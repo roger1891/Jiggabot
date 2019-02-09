@@ -8,6 +8,9 @@ import time,os
 import random
 from rasa_core.agent import Agent
 from rasa_core.interpreter import RasaNLUInterpreter
+import datetime
+
+
 
 #set variables
 intro_list = ["Hi,I am female and from London.",
@@ -22,8 +25,6 @@ default_list = ["Are you still there?",
                 "Say something...",
                 "Just checking if you are still alive"
                 ]
-introduction_msg = random.choice(intro_list)
-re_hook_msg = random.choice(default_list)
 stop_keyword = "/stop"
 driver = webdriver.Chrome()
 interpreter = RasaNLUInterpreter('models/default/nlu')
@@ -70,7 +71,11 @@ def switch_between_turns(message_input_param, send_btn_param):
 
   #while true
   while True:
-    #check if last item is "You"                  
+    #check if last item is "You"       
+    print ("the turn is: " + turn.text) 
+    print ("check if: " + get_last_item().text[0:26])   
+  
+      
     if turn.text == "You":  
       #if it is then: Strangers turn
       print ("Stranger turn")
@@ -82,6 +87,8 @@ def switch_between_turns(message_input_param, send_btn_param):
       print ("the count is " + str(count))
       if(count > 5):
         print ("say something to stranger")
+        #randomize hook message
+        re_hook_msg = random.choice(default_list)
         #send rehook message to chat
         send_message_to_chat(message_input_param, re_hook_msg, send_btn_param, 0.5)
         #reset count to 0
@@ -119,10 +126,47 @@ def switch_between_turns(message_input_param, send_btn_param):
       except (NoSuchElementException, StaleElementReferenceException, InvalidElementStateException, UnexpectedAlertPresentException) : 
         continue
       
+  
+    #print ("check if: " + get_last_item().find_element_by_tag_name("strong").text)    
+    #get_last_item().find_element_by_tag_name("strong").text == "Stranger has disconnected.":   
     #if stranger disconnects
-    elif turn.text == "Stranger has disconnected.":           
+    elif get_last_item().text[0:26] == "Stranger has disconnected.":     
+      #driver.find_element_by_id("disconnect")      
       try:
-        chat_box = driver.find_element_by_id("msgs")
+        parent_div = driver.find_element_by_id("msgs")
+        children = parent_div.find_elements_by_tag_name("li")
+        #chat_box.find_elements_by_tag_name('li')[-1]
+        #get current date
+        now = datetime.datetime.now()
+        year = now.year
+        month = now.month
+        day = now.day
+        
+        file_name = "chat_conversations/chat-convo-{}-{}-{}.txt".format(day, month, year)
+
+        if os.path.exists(file_name):
+            append_write = 'a' # append if already exists
+        else:
+            append_write = 'w' # make a new file if not
+            
+        chat_conversations = open(file_name,append_write)
+        
+        chat_conversations.write("Conversation_log_id: %s\r\n" % (str(now)))  
+        for index, child in enumerate(children):
+          #title
+                   
+          if index > 12:           
+            print("Value is: %s" % child.text)
+            
+            
+            #if file exisets
+            #if it doesn't exist
+            chat_conversations.write("%s\r\n" % (child.text))       
+
+          
+        #close file
+        chat_conversations.close() 
+          
         #pause 5 secs
         time.sleep(5) # seconds
         #get  start new button
@@ -131,7 +175,9 @@ def switch_between_turns(message_input_param, send_btn_param):
         start_new_btn.click()
         print("Sranger is typing") 
       except (NoSuchElementException, StaleElementReferenceException, InvalidElementStateException, UnexpectedAlertPresentException) : 
-        continue
+        continue       
+      
+
       
 
 #run connect ot website
@@ -151,6 +197,8 @@ def connect_to_site():
         message_input = driver.find_element_by_xpath('//textarea[@rows="1"]')
         #set send button variable
         send_btn = driver.find_element_by_xpath('//button[@class="btn-success"]')
+        #randomize introduction message
+        introduction_msg = random.choice(intro_list)
         #send introduction message to chat
         send_message_to_chat(message_input, introduction_msg, send_btn, 1.5)        
         #pause for seconds
