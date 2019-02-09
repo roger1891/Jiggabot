@@ -17,7 +17,13 @@ intro_list = ["Hi,I am female and from London.",
               "19, female, and happy",
               "wohoo, female here!"
               ] 
+default_list = ["Are you still there?",
+                "Should I worry that you are not saying anything?",
+                "Say something...",
+                "Just checking if you are still alive"
+                ]
 introduction_msg = random.choice(intro_list)
+re_hook_msg = random.choice(default_list)
 stop_keyword = "/stop"
 driver = webdriver.Chrome()
 interpreter = RasaNLUInterpreter('models/default/nlu')
@@ -41,16 +47,26 @@ def ai_integration(stranger_msg_param, message_input_param, send_btn_param):
       #print(response["text"])
       time.sleep(0.3)
       print(response.get("text"))   
-      message_input_param.send_keys(response.get("text"))
-      send_btn_param.click()
+      #send ai message to chat
+      send_message_to_chat(message_input_param, response.get("text"), send_btn_param, 2.5)
 
 def disconnect_session():
   disconnect_btn = driver.find_element_by_xpath('//button[@class="btn-error"]')
   disconnect_btn.click()
-
+  
+def send_message_to_chat(message_input_param, msg, send_btn_param, time_before_send_param):
+  #send message to textarea
+  message_input_param.send_keys(msg)
+  #illusion of typing
+  time.sleep(time_before_send_param)
+  #click send button
+  send_btn_param.click()  
+  
 def switch_between_turns(message_input_param, send_btn_param):
   #determine turn
   turn = determine_turn()
+  #counter for 
+  count = 0
   
   #while true
   while True:      
@@ -60,9 +76,17 @@ def switch_between_turns(message_input_param, send_btn_param):
       print ("Stranger turn")
       #pause a few secs
       time.sleep(5) # seconds
+      #increase count by 1
+      count+=1
+      # if after 2 cycles of 5 seconds (10) seconds say stomething
+      if(count > 2):
+        print ("say something to stranger")
+        #send rehook message to chat
+        send_message_to_chat(message_input_param, re_hook_msg, send_btn_param, 0.5)
       try:
         #check turn
         turn = determine_turn()
+        #if stranger not responding rhen type somthing
       except (NoSuchElementException, StaleElementReferenceException, InvalidElementStateException, UnexpectedAlertPresentException) : 
         continue
       
@@ -90,8 +114,9 @@ def switch_between_turns(message_input_param, send_btn_param):
       except (NoSuchElementException, StaleElementReferenceException, InvalidElementStateException, UnexpectedAlertPresentException) : 
         continue
       
-    else:
-      print("Player turn again")  
+    else:     
+      print("Sranger is typing") 
+      
 
 #run connect ot website
 def connect_to_site():
@@ -108,12 +133,10 @@ def connect_to_site():
         driver.find_element_by_xpath('//textarea[@rows="1"]').clear()
         #define message variables
         message_input = driver.find_element_by_xpath('//textarea[@rows="1"]')
-        #set introduction message
-        message_input.send_keys(introduction_msg)
         #set send button variable
         send_btn = driver.find_element_by_xpath('//button[@class="btn-success"]')
-        #click send button
-        send_btn.click()
+        #send introduction message to chat
+        send_message_to_chat(message_input, introduction_msg, send_btn, 1.5)        
         #pause for seconds
         driver.implicitly_wait(5) # seconds
         
