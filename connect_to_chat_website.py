@@ -63,6 +63,41 @@ def send_message_to_chat(message_input_param, msg, send_btn_param, time_before_s
   #click send button
   send_btn_param.click()  
   
+def save_chat_convo_to_file(children_list_param):
+  #get current date
+  now = datetime.datetime.now()
+  year = now.year
+  month = now.month
+  day = now.day
+  #assign file name
+  file_name = "chat_conversations/chat-convo-{}-{}-{}.txt".format(day, month, year)
+  print ("Disconnected stranger")
+  
+  #check if file exists
+  if os.path.exists(file_name):
+      #if yes, append text
+      append_write = 'a' # append if already exists
+  else:
+      #if not, create new file
+      append_write = 'w' # make a new file if not
+  
+  #create or append file
+  chat_conversations = open(file_name,append_write)
+  #create title of file
+  chat_conversations.write("Conversation_log_id: %s\r\n" % (str(now)))  
+  #loop through chat content
+  for child in children_list_param:
+    #if li is not empty        
+    if child.text != "":           
+      print("Value is: %s" % child.text)
+      #print li value
+      chat_conversations.write("%s\r\n" % (child.text))                
+  
+  #enter after values are written to file
+  chat_conversations.write("\r\n")
+  #close file
+  chat_conversations.close() 
+  
 def switch_between_turns(message_input_param, send_btn_param):
   #determine turn
   turn = determine_turn()
@@ -74,9 +109,31 @@ def switch_between_turns(message_input_param, send_btn_param):
     #check if last item is "You"       
     print ("the turn is: " + turn.text) 
     print ("check if: " + get_last_item().text[0:26])   
-  
+    
+    #if stranger disconnects\
+    if get_last_item().text[0:26] == "Stranger has disconnected.": 
+      #pause a few secs
+      time.sleep(5) # seconds
+      try:
+        #get parent div
+        parent_div = driver.find_element_by_id("msgs")
+        #get child div
+        children = parent_div.find_elements_by_tag_name("li")
+        
+        #save chat values to file
+        save_caht_convo_to_file(children)
+        
+        #pause 5 secs
+        time.sleep(5) # seconds        
+        #get start new button
+        start_new_btn = driver.find_element_by_id("start_new")
+        #click the btn
+        start_new_btn.click()
+        continue
+      except (NoSuchElementException, StaleElementReferenceException, InvalidElementStateException, UnexpectedAlertPresentException) : 
+        continue  
       
-    if turn.text == "You":  
+    elif turn.text == "You" or turn.text == "Stranger is typing...":  
       #if it is then: Strangers turn
       print ("Stranger turn")
       #pause a few secs
@@ -125,60 +182,6 @@ def switch_between_turns(message_input_param, send_btn_param):
         
       except (NoSuchElementException, StaleElementReferenceException, InvalidElementStateException, UnexpectedAlertPresentException) : 
         continue
-      
-  
-    #print ("check if: " + get_last_item().find_element_by_tag_name("strong").text)    
-    #get_last_item().find_element_by_tag_name("strong").text == "Stranger has disconnected.":   
-    #if stranger disconnects
-    elif get_last_item().text[0:26] == "Stranger has disconnected.":     
-      #driver.find_element_by_id("disconnect")      
-      try:
-        parent_div = driver.find_element_by_id("msgs")
-        children = parent_div.find_elements_by_tag_name("li")
-        #chat_box.find_elements_by_tag_name('li')[-1]
-        #get current date
-        now = datetime.datetime.now()
-        year = now.year
-        month = now.month
-        day = now.day
-        
-        file_name = "chat_conversations/chat-convo-{}-{}-{}.txt".format(day, month, year)
-
-        if os.path.exists(file_name):
-            append_write = 'a' # append if already exists
-        else:
-            append_write = 'w' # make a new file if not
-            
-        chat_conversations = open(file_name,append_write)
-        
-        chat_conversations.write("Conversation_log_id: %s\r\n" % (str(now)))  
-        for index, child in enumerate(children):
-          #title
-                   
-          if index > 12:           
-            print("Value is: %s" % child.text)
-            
-            
-            #if file exisets
-            #if it doesn't exist
-            chat_conversations.write("%s\r\n" % (child.text))       
-
-          
-        #close file
-        chat_conversations.close() 
-          
-        #pause 5 secs
-        time.sleep(5) # seconds
-        #get  start new button
-        start_new_btn = driver.find_element_by_id("start_new")
-        #click the btn
-        start_new_btn.click()
-        print("Sranger is typing") 
-      except (NoSuchElementException, StaleElementReferenceException, InvalidElementStateException, UnexpectedAlertPresentException) : 
-        continue       
-      
-
-      
 
 #run connect ot website
 def connect_to_site():
