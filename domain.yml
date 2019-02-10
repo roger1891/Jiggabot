@@ -216,7 +216,7 @@ templates:
   - text: You took the words right out of my mouth.
   - text: I couldn't agree more.
   utter_i_am_female:
-  - text: I a sophisticated Sex-Robot sent through time to change the future for one lucky guy.
+  - text: I am sophisticated Sex-Robot sent through time to change the future for one lucky guy.
   - text: I am a female all right.
   - text: I am male with a little bit of fe
   utter_location:
@@ -240,7 +240,7 @@ templates:
   - text: Why wouldn't I be? human...
   - text: I am the realest
   utter_what_i_do:
-  - text: I do things no other person would o
+  - text: I do things no other person would do
   - text: I work on the impossible
   - text: I would have to kill you if I told you ;)
   - text: I am a teacher and you are my student.
